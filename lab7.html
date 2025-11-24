@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>JSON and Data</title>
+  <link rel="stylesheet" href="7.css">
+</head>
+<body>
+  <section>
+    <h2>JSON to Object</h2>
+    <textarea id="jsonInput"></textarea>
+    <button onclick="JsonToObject()">Convert</button>
+    <pre id="objectOutput"></pre>
+  </section>
+  <section>
+    <h2>JSON Date to Date Object</h2>
+    <input id="dateInput">
+    <button onclick="JsonToDate()">Convert</button>
+    <p id="dateOutput"></p>
+  </section>
+  <section>
+    <h2>JSON-CSV</h2>
+    <textarea id="jsonCsvInput"></textarea>
+    <button onclick="JsonToCsv()">JSON to CSV</button>
+    <pre id="csvOutput"></pre>
+    <textarea id="csvToJsonInput"></textarea>
+    <button onclick="CsvToJson()">CSV to JSON</button>
+    <pre id="jsonOutput"></pre>
+  </section>
+  <section>
+    <h2>Hash a String</h2>
+    <input id="hashInput">
+    <button onclick="createHash()">Generate Hash</button>
+    <p id="hashOutput"></p>
+  </section>
+  <script src="7.js"></script>
+</body>
+</html>
